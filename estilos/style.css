@@ -66,12 +66,10 @@ article.servicos > h2 {
 
 article.servicos {
     text-align: center;
-    margin: 10px;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
     align-items: center;
-    border: 1px dotted black;
+    justify-content: space-evenly;
 }
 
 article.servicos > section.servico > div.servi > a {
@@ -80,18 +78,30 @@ article.servicos > section.servico > div.servi > a {
 }
 
 article.servicos > section.servico {
+    flex: 0 1 50px;
+    margin: 10px;
+    max-width: 400px;
+}
+
+article.servicos > section.servico > p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+/*article.servicos > section.servico {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: space-evenly;
     border: 1px dotted black;
-}
+} */
 
 article.servicos > section.servico > div.servi {
     padding: 15px
 }
 
-article.servicos > section.servico > div.icon-servi > img {
+article.servicos > section.servico > div.icon-servi > a > img {
     width: 100px;
     margin: 10px;
 }
