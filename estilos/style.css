@@ -9,8 +9,18 @@
     font-size: 1em;
 }
 
-main {
+body, main {
     font-family: "Roboto Condensed", serif;
+    background-color: lightgrey;
+}
+
+hr.linha{
+    border: none;
+    border-radius: 70%;
+    width: 50vw;
+    height: 3px;
+    background-color: #144162;
+    margin: 20px auto;
 }
 
 header {
@@ -54,7 +64,7 @@ header > nav.opcoes > a:hover {
 
 section.introducao > h2 {
     font-size: 2.3em;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     margin-bottom: 5px;
 }
 
@@ -156,7 +166,6 @@ section#equipe {
     max-width: 500px;
     min-width: 200px;
     margin: auto;
-    border: 1px dotted black;
 }
 
 section#equipe > h2 {
@@ -192,5 +201,5 @@ section#equipe > div.bio > p {
     line-height: 1.5em;
     margin-bottom: 20px;
     max-width: 400px;
-    padding: 20px;
+    padding: 5px;
 }
