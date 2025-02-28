@@ -148,7 +148,11 @@ section#equipe {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+    border: 1px dotted black;
 }
 
 section#equipe > h2 {
@@ -173,13 +177,14 @@ section#equipe > div.bio > h3{
 }
 
 section#equipe > div.bio {
-    width: 550px;
+    align-self: center;
 }
 
 section#equipe > div.bio > p {
     text-indent: 15px;
     text-align: justify;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.5em;
     margin-bottom: 20px;
+    max-width: 400px;
 }
