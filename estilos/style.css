@@ -9,6 +9,10 @@
     font-size: 1em;
 }
 
+:root {
+    --cor-primaria: #144162
+}
+
 body, main {
     font-family: "Roboto Condensed", serif;
     background-color: lightgrey;
@@ -89,21 +93,37 @@ article.servicos {
     justify-content: space-evenly;
 }
 
-article.servicos > section.servico > div.servi > a {
+article.servicos > a.caixaservi {
     text-decoration: none;
-    font-size: 1.5em;
 }
 
-article.servicos > section.servico {
+article.servicos > a.caixaservi > section.servico:hover {
+    background-color: rgb(37, 110, 110);
+}
+
+article.servicos > a.caixaservi > section.servico > div.servi > h3 {
+    font-size: 1.5em;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+article.servicos > a.caixaservi > section.servico {
     flex: 0 1 50px;
     margin: 10px;
     width: 400px;
+    border: 1px dotted black;
+    border-radius: 30%;
+    background-color: #1b568088;
 }
 
-article.servicos > section.servico > p {
+article.servicos > a.caixaservi > section.servico > p {
     font-size: 1.2em;
     text-align: center;
     line-height: 1.3em;
+    max-width: 300px;
+    margin: 0px auto 20px auto;
+    color: black;
 }
 
 
@@ -119,7 +139,7 @@ article.servicos > section.servico > div.servi {
     padding: 15px
 }
 
-article.servicos > section.servico > div.icon-servi > a > img {
+article.servicos > a.caixaservi > section.servico > div.icon-servi > img {
     width: 100px;
     margin: 10px;
 }
