@@ -35,7 +35,6 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted white;
     flex: 1 1 ;
     margin: 10px;
 }
@@ -47,7 +46,6 @@ header > h1 > img {
 header > nav.opcoes {
     display: flex;
     flex-flow: column nowrap;
-    border: 1px dotted white;
     margin: 10px;
 }
 
@@ -70,6 +68,7 @@ section.introducao > h2 {
     font-size: 2.3em;
     padding: 0px 20px 20px 20px;
     margin-bottom: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
 }
 
 section.introducao {
@@ -83,6 +82,7 @@ article.servicos > h2 {
     font-size: 2.3em;
     padding: 20px;
     margin-bottom: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
 }
 
 article.servicos {
@@ -95,10 +95,12 @@ article.servicos {
 
 article.servicos > a.caixaservi {
     text-decoration: none;
+    clip-path: inset(0 round 125px);
 }
 
 article.servicos > a.caixaservi > section.servico:hover {
     background-color: rgb(37, 110, 110);
+    transition: .5s;
 }
 
 article.servicos > a.caixaservi > section.servico > div.servi > h3 {
@@ -112,9 +114,10 @@ article.servicos > a.caixaservi > section.servico {
     flex: 0 1 50px;
     margin: 10px;
     width: 390px;
-    border: 1px dotted black;
+    border: 5px outset darkblue;
     border-radius: 30%;
     background-color: #1b568088;
+    box-shadow: inset -8px 13px 8px 0px rgba(0, 0, 0, 0.39)
 }
 
 article.servicos > a.caixaservi > section.servico > p {
@@ -136,7 +139,7 @@ article.servicos > a.caixaservi > section.servico > p {
 } */
 
 article.servicos > section.servico > div.servi {
-    padding: 15px
+    padding: 15px;
 }
 
 article.servicos > a.caixaservi > section.servico > div.icon-servi > img {
@@ -175,6 +178,7 @@ div.contato > a:hover {
 
 section#equipe > h2 {
     font-size: 2.3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
 }
 
 section#equipe {
