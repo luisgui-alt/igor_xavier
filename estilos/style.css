@@ -111,7 +111,7 @@ article.servicos > a.caixaservi > section.servico > div.servi > h3 {
 article.servicos > a.caixaservi > section.servico {
     flex: 0 1 50px;
     margin: 10px;
-    width: 60vw;
+    width: 390px;
     border: 1px dotted black;
     border-radius: 30%;
     background-color: #1b568088;
