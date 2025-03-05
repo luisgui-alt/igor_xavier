@@ -98,10 +98,6 @@ article.servicos > a.caixaservi {
     clip-path: inset(0 round 125px);
 }
 
-article.servicos > a.caixaservi > section.servico:hover {
-    background-color: rgb(37, 110, 110);
-    transition: .5s;
-}
 
 article.servicos > a.caixaservi > section.servico > div.servi > h3 {
     font-size: 1.5em;
@@ -117,7 +113,19 @@ article.servicos > a.caixaservi > section.servico {
     border: 5px outset darkblue;
     border-radius: 30%;
     background-color: #1b568088;
-    box-shadow: inset -8px 13px 8px 0px rgba(0, 0, 0, 0.39)
+    box-shadow: inset -8px 13px 8px 0px rgba(0, 0, 0, 0.39);
+    transition: .5s;
+}
+
+article.servicos > a.caixaservi > section.servico:hover {
+    background-color: rgb(43, 43, 161);
+    box-shadow: none;
+    transition: .5s;
+}
+
+article.servicos > a.caixaservi > section.servico:hover p {
+    color: white;
+    transition: .5s;
 }
 
 article.servicos > a.caixaservi > section.servico > p {
@@ -128,7 +136,6 @@ article.servicos > a.caixaservi > section.servico > p {
     margin: 0px auto 20px auto;
     color: black;
 }
-
 
 /*article.servicos > section.servico {
     display: flex;
