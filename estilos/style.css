@@ -283,6 +283,8 @@ div#blog > a > img {
 div#blog2 {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 div#blog2 > a {
