@@ -104,6 +104,7 @@ article.servicos > a.caixaservi > section.servico > div.servi > h3 {
     color: white;
     font-weight: 400;
     margin-bottom: 5px;
+    transition: .5s;
 }
 
 article.servicos > a.caixaservi > section.servico {
@@ -124,8 +125,20 @@ article.servicos > a.caixaservi > section.servico:hover {
 }
 
 article.servicos > a.caixaservi > section.servico:hover p {
-    color: white;
+    color: rgb(255, 255, 255);
     transition: .5s;
+}
+
+article.servicos > a.caixaservi > section.servico:hover div.servi > h3 {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    transition: .5s;
+}
+
+article.servicos > a.caixaservi > section.servico:hover div.icon-servi > img {
+    filter: invert(1);
+    transition: .5s;
+    width: 110px;
 }
 
 article.servicos > a.caixaservi > section.servico > p {
@@ -135,6 +148,7 @@ article.servicos > a.caixaservi > section.servico > p {
     max-width: 300px;
     margin: 0px auto 20px auto;
     color: black;
+    transition: .5s;
 }
 
 /*article.servicos > section.servico {
@@ -152,6 +166,7 @@ article.servicos > section.servico > div.servi {
 article.servicos > a.caixaservi > section.servico > div.icon-servi > img {
     width: 100px;
     margin: 10px;
+    transition: .5s;
 }
 
 div.contato {
