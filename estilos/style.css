@@ -302,8 +302,31 @@ div#blog > a > img, div#blog2 > a > img {
     border-radius: 30px;
 } */
 
+article#adendo {
+    background-color: #303030;
+    text-align: center;
+}
+
+article#adendo > div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+article#adendo > p > a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+article#adendo > p > a:hover {
+    color: white;
+}
+
+article#adendo > a >
+
 footer {
-    background-color: rgb(92, 23, 23);
+    background-color: #1A1A1A;
     height: 10vh;
     text-align: center;
 }
