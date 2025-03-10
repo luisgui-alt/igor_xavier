@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+header > nav#opcoes {
+    margin: 7px;
+}
+
 article.servicos > a.caixaservi > section.servico {
     max-width: 350px;
 }
