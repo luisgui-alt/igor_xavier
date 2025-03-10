@@ -323,7 +323,18 @@ article#adendo > p > a:hover {
     color: white;
 }
 
-article#adendo > a >
+article#adendo > ul > li > a > img {
+    width: 30px;
+}
+
+article#adendo > ul {
+    list-style-type: none;
+}
+
+article#adendo > ul > li {
+    display: inline-block;
+    padding: 10px 5px;
+}
 
 footer {
     background-color: #1A1A1A;
