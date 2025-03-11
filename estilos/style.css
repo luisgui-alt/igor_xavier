@@ -10,7 +10,10 @@
 }
 
 :root {
-    --cor-primaria: #144162
+    --cor-primaria: #261515;
+    --cor-secundaria: #3F2122;
+    --cor-terciaria: #735359;
+    --cor-quaternaria: #402429;
 }
 
 html, body {
@@ -19,7 +22,7 @@ html, body {
 
 body, main {
     font-family: "Roboto Condensed", serif;
-    background-color: lightgrey;
+    background-color: white;
 }
 
 hr.linha{
@@ -27,12 +30,12 @@ hr.linha{
     border-radius: 70%;
     width: 50vw;
     height: 3px;
-    background-color: #144162;
+    background-color: var(--cor-secundaria);
     margin: 20px auto;
 }
 
 header {
-    background-color: #144162;
+    background-image: linear-gradient(to top, var(--cor-primaria), var(--cor-secundaria));
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -63,7 +66,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    color: lightblue;
+    color: var(--cor-terciaria);
 }
 
 header > nav#opcoes {
@@ -79,7 +82,7 @@ header > nav#opcoes {
  header > nav#opcoes > a {
     text-decoration: none;
     color: white;
-    background-color: rgb(37, 110, 110);
+    background-color: var(--cor-quaternaria);
     padding: 10px;
     width: 90vw;
     margin: 5px;
@@ -89,7 +92,7 @@ header > nav#opcoes {
 } 
 
 header > nav#opcoes > a:hover {
-    background-color: darkblue;
+    background-color: var(--cor-terciaria);
     transition: .5s;
 } 
 
@@ -125,7 +128,7 @@ article.servicos {
 
 article.servicos > a.caixaservi {
     text-decoration: none;
-    clip-path: inset(0 round 125px);
+    /*clip-path: inset(0 round 125px);*/
 }
 
 
@@ -141,31 +144,34 @@ article.servicos > a.caixaservi > section.servico {
     flex: 0 1 50px;
     margin: 10px;
     width: 390px;
-    border: 5px outset darkblue;
+    border: 5px outset var(--cor-primaria);
     border-radius: 30%;
-    background-color: #1b568088;
+    background-color: var(--cor-terciaria);
     box-shadow: inset -8px 13px 8px 0px rgba(0, 0, 0, 0.39);
     transition: .5s;
 }
 
 article.servicos > a.caixaservi > section.servico:hover {
-    background-color: rgb(43, 43, 161);
+    transform: translate(-8px, -8px);
     box-shadow: none;
     transition: .5s;
 }
 
 article.servicos > a.caixaservi > section.servico:hover p {
+    transform: translate(-8px, -8px);
     color: rgb(255, 255, 255);
     transition: .5s;
 }
 
 article.servicos > a.caixaservi > section.servico:hover div.servi > h3 {
+    transform: translate(-8px, -8px);
     color: rgb(255, 255, 255);
     font-weight: 700;
     transition: .5s;
 }
 
 article.servicos > a.caixaservi > section.servico:hover div.icon-servi > img {
+    transform: translate(-8px, -8px);
     filter: invert(1);
     transition: .5s;
     width: 110px;
@@ -205,7 +211,7 @@ div.contato {
     align-items: center;
     justify-content: space-between;
     padding: 30px;
-    background-color: #144162;
+    background-color: var(--cor-primaria);
     color: white;
 }
 
@@ -216,7 +222,7 @@ div.contato > h3 {
 
 div.contato > a {
     text-decoration: none;
-    background-color: rgb(3, 3, 68);
+    background-color: var(--cor-quaternaria);
     color: white;
     width: 180px;
     text-align: center;
@@ -224,7 +230,7 @@ div.contato > a {
 }
 
 div.contato > a:hover {
-    background-color: rgb(45, 45, 156);
+    background-color: var(--cor-terciaria);
     transition: .5s;
 }
 
