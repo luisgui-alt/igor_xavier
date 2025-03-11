@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+header {
+    height: 210px;
+    display: block;
+}
+
+header > h1 > img {
+    width: 340px;
+    margin: 10px;
+}
+
+header > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+header > nav#opcoes > a {
+    border-collapse: collapse;
+    margin: 0px;
+    margin: 3px;
+}
+
+section#equipe {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+section#equipe > foto.mem {
+    align-self: flex-start;
+}
+
+
+section#equipe > div.bio > p {
+    max-width: 640px;
+}
+
+aside#iblog > div#blog2 > a.pi {
+    position: relative;
+    transform: translate(0%, -5%);
+}
