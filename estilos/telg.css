@@ -22,6 +22,7 @@ header > nav#opcoes {
 header > nav#opcoes > a {
     width: 200px;
     text-align: center;
+    border: none;
 }
 
 article.servicos {
@@ -50,10 +51,6 @@ section#equipe {
 
 section#equipe > div.fotomem {
     margin: 30px;
-}
-
-section#equipe > div.bio {
-    
 }
 
 section#equipe > div.bio > p {

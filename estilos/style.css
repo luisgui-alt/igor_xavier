@@ -44,13 +44,26 @@ header > h1 {
 }
 
 header > h1 > img {
-    width: 25vw;
+    width: 50vw;
 }
 
 span#burguer {
     color: white;
     padding: 15px;
     cursor: pointer;
+    align-self: flex-start;
+    width: 50px;
+    height: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span#burguer:hover {
+    color: lightblue;
 }
 
 header > nav#opcoes {
@@ -71,6 +84,8 @@ header > nav#opcoes {
     width: 90vw;
     margin: 5px;
     border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgba(255, 255, 255, 0.651);
 } 
 
 header > nav#opcoes > a:hover {
