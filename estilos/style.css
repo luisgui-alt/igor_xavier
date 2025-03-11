@@ -183,7 +183,7 @@ article.servicos > a.caixaservi > section.servico > p {
     line-height: 1.3em;
     max-width: 300px;
     margin: 0px auto 20px auto;
-    color: black;
+    color: lightgrey;
     transition: .5s;
 }
 
