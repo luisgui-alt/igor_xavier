@@ -92,7 +92,8 @@ section.introducao {
     font-size: 1.1em;
 }
 
-article.servicos > h2 {
+h2.kkj {
+    text-align: center;
     font-size: 2.3em;
     padding: 20px;
     margin-bottom: 5px;
@@ -212,7 +213,9 @@ div.contato > a:hover {
     transition: .5s;
 }
 
-section#equipe > h2 {
+h2.eq {
+    text-align: center;
+    margin: 20px;
     font-size: 2.3em;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
 }
@@ -226,10 +229,6 @@ section#equipe {
     max-width: 500px;
     min-width: 200px;
     margin: auto;
-}
-
-section#equipe > h2 {
-    margin: 20px;
 }
 
 section#equipe > div.fotomem {

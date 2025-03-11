@@ -7,18 +7,56 @@ span#burguer {
 header {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
 }
 
 header > h1 > img {
     width: 200px;
+    margin: 30px;
 }
 
 header > nav#opcoes {
     display: inline-block;
+    margin: 30px;
 }
 
 header > nav#opcoes > a {
     width: 200px;
     text-align: center;
+}
+
+article.servicos {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article.servicos > a.caixaservi > section.servico {
+    height: 340px;
+}
+
+article.servicos > a.caixaservi > section.servico > div.icon-servi > img {
+    margin-top: 40px;
+}
+
+article.servicos > a.caixaservi > section.servico > div.icon-servi > img.ui {
+    margin-top: 10px;
+}
+
+section#equipe {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    max-width: 800px;
+}
+
+section#equipe > div.fotomem {
+    margin: 30px;
+}
+
+section#equipe > div.bio {
+    
+}
+
+section#equipe > div.bio > p {
+    margin-bottom: 0px;
+    max-width: 440px;
 }
