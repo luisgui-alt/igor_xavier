@@ -7,3 +7,7 @@ header > nav#opcoes {
 article.servicos > a.caixaservi > section.servico {
     max-width: 350px;
 }
+
+div#blog > a > img {
+    width: 90px;
+}
